@@ -8,8 +8,8 @@ function Projects() {
   const [showAll, setShowAll] = useState(false);
 
   const sorted = [...projects].sort((a, b) => a.order - b.order);
-  const visibleProjects = showAll ? sorted : sorted.slice(0, 4);
-  const hasMore = sorted.length > 4;
+  const visibleProjects = showAll ? sorted : sorted.slice(0, 2);
+  const hasMore = sorted.length > 2;
 
   return (
     <section
