@@ -57,7 +57,7 @@ function Sidebar() {
       </div>
 
       <a
-        href="/resume.pdf"
+        href="/Asad_Ali_Mir_resume.pdf"
         download
         className="mt-2 bg-white text-black text-lg font-medium px-6 py-3.5 rounded-lg hover:bg-gray-200 transition w-full"
       >

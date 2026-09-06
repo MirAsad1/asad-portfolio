@@ -1,6 +1,6 @@
 # Asad's Portfolio
 
-A modern, responsive portfolio website rebuilt with React and Tailwind CSS to showcase my work as an **AI Engineer** and **Software Developer**. It highlights my projects, experience, technical skills, and provides an easy way to get in touch.
+A modern, responsive portfolio website rebuilt with React and Tailwind CSS to showcase my work as an aspiring **AI Engineer** and **Software Developer**. It highlights my projects, experience, technical skills, and provides an easy way to get in touch.
 
 ## ✨ Features
 
@@ -51,7 +51,7 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for a full breakdown of the component s
 
 ## 🌐 Live Demo
 
-https://your-vercel-url.vercel.app _(update after deployment)_
+https://asad-portfolio-gamma.vercel.app/ 
 
 ## 📄 Alternate Version
 
