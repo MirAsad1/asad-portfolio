@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
         <h3 className="text-white font-bold text-2xl ">{project.title}</h3>
       </div>
 
-      <details className="text-base text-gray-400 leading-relaxed">
+      <details className="text-lg text-gray-400 leading-relaxed">
         <summary className="cursor-pointer flex items-center justify-between text-gray-500 hover:text-orange-400 transition [&::-webkit-details-marker]:hidden marker:content-none">
           <span>Read description</span>
           <svg
@@ -53,7 +53,7 @@ function ProjectCard({ project }) {
         ))}
       </div>
 
-      <div className="flex gap-4 mt-3 text-sm">
+      <div className="flex gap-4 mt-6 text-sl">
         {project.githubLink && (
           <a
             href={project.githubLink}

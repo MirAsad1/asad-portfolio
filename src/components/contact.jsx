@@ -39,7 +39,7 @@ function Contact() {
   }
 
   const inputClasses =
-    "w-full bg-[#141311] border border-white/10 rounded-lg px-4 py-2.5 text-sm text-gray-200 placeholder-gray-600 focus:outline-none focus:border-orange-500/50";
+    "w-full bg-[#141311] border border-white/10 rounded-lg px-4 py-2.5 text-base text-gray-200 placeholder-gray-600 focus:outline-none focus:border-orange-500/50";
 
   return (
     <section id="contact" ref={revealRef} className="mb-28 scroll-mt-24 reveal">

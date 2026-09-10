@@ -4,9 +4,10 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 const CATEGORY_LABELS = {
   languages: "Languages",
   frontend: "Frontend",
-  backend: "Backend",
+  backend: "Backend & Databases",
   ai_ml: "AI/ML",
-  tools: "Tools",
+  tools: "Tools & Technologies",
+  soft_skills: "Beyond the Stack",
 };
 
 function Skills() {
@@ -21,7 +22,7 @@ function Skills() {
       <div className="flex flex-col gap-6">
         {Object.entries(skills).map(([category, skillList]) => (
           <div key={category}>
-            <h3 className="text-lg text-gray-400 mb-3">
+            <h3 className="text-xl text-gray-400 mb-3">
               {CATEGORY_LABELS[category] || category}
             </h3>
             <div className="flex flex-wrap gap-2">

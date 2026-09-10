@@ -112,7 +112,7 @@ export const experience = [
     startDate: "2025-08-01",
     endDate: "2025-10-01",
     description:
-      "Developed responsive React-based applications while applying modern frontend development practices and component-based architecture.\nWorked with state management concepts and reusable UI components to build maintainable and user-friendly web interfaces.",
+      "Developed responsive React.js applications using component-based architecture and reusable UI components.\nApplied state management concepts to build maintainable and interactive web interfaces, while gaining exposure to Node.js and backend development concepts.",
     order: 0,
   },
   {
@@ -124,23 +124,42 @@ export const experience = [
     startDate: "2024-07-01",
     endDate: "2024-08-01",
     description:
-      "Developed a web scraper, chatbot, and machine learning models including linear regression and spam classification systems using Python, Scikit-learn, and NLTK.\nPerformed data preprocessing, feature engineering, and model evaluation to improve model performance and reliability.",
+      "Developed Python-based projects including a web scraper, rule-based chatbot, and machine learning models such as linear regression and spam classification.\n Performed data preprocessing, cleaning, and transformation using Pandas, NumPy, and BeautifulSoup, and applied basic model evaluation techniques using Scikit-learn and NLTK.",
     order: 1,
   },
 ];
 
 export const skills = {
-  languages: ["Python", "JavaScript", "C++"],
+  languages: ["Python", "JavaScript", "C", "C++"],
   frontend: ["React.js", "HTML", "CSS"],
-  backend: ["Django", "Node.js", "PostgreSQL", "MySQL", "REST APIs"],
+  backend: [
+    "Django",
+    "FastAPI",
+    "Node.js",
+    "REST APIs",
+    "PostgreSQL",
+    "MySQL",
+    "Celery",
+    "Redis",
+  ],
   ai_ml: [
     "Machine Learning",
     "Deep Learning",
     "Generative AI",
+    "NLP",
     "LLMs",
     "RAG",
-    "NLP",
+    "Vector Databases",
     "Prompt Engineering",
   ],
   tools: ["Git", "Github", "Docker"],
+  soft_skills: [
+    "Cross-functional Collaboration",
+    "Communication",
+    "Requirement Analysis",
+    "Systems Thinking",
+    "Learning Agility",
+    "Adaptability",
+    "Presentation",
+  ],
 };

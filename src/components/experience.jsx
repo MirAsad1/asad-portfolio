@@ -51,7 +51,7 @@ function Experience() {
                     {formatMonthYear(exp.startDate)} –{" "}
                     {exp.endDate ? formatMonthYear(exp.endDate) : "Present"}
                   </p>
-                  <p className="text-base text-gray-400 mt-2 leading-relaxed whitespace-pre-line">
+                  <p className="text-lg  text-gray-400 mt-2 leading-relaxed whitespace-pre-line">
                     {exp.description}
                   </p>
                 </div>
